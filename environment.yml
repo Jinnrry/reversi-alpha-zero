@@ -1,12 +1,65 @@
 name: reversi-a0
-
+channels:
+  - defaults
 dependencies:
-  - python==3.6.3
-  - pip
+  - ca-certificates=2021.7.5=hecd8cb5_1
+  - certifi=2021.5.30=py36hecd8cb5_0
+  - libcxx=10.0.0=1
+  - libedit=3.1.20210714=h9ed2024_0
+  - libffi=3.2.1=h0a44026_1007
+  - ncurses=6.2=h0a44026_1
+  - openssl=1.0.2u=h1de35cc_0
+  - pip=21.2.2=py36hecd8cb5_0
+  - python=3.6.3=h47c878a_7
+  - python.app=3=py36h9ed2024_0
+  - readline=7.0=h1de35cc_5
+  - setuptools=52.0.0=py36hecd8cb5_0
+  - sqlite=3.33.0=hffcf06c_0
+  - tk=8.6.10=hb0a8c7a_0
+  - wheel=0.37.0=pyhd3eb1b0_0
+  - xz=5.2.5=h1de35cc_0
+  - zlib=1.2.11=h1de35cc_3
   - pip:
+    - absl-py==0.13.0
+    - astor==0.8.1
+    - bleach==1.5.0
+    - cached-property==1.5.2
+    - cffi==1.14.6
+    - click==8.0.1
+    - cython==0.29.24
+    - dataclasses==0.8
+    - enum34==1.1.10
+    - gast==0.2.2
+    - google-pasta==0.2.0
+    - grpcio==1.39.0
+    - h5py==2.10.0
+    - html5lib==0.9999999
+    - importlib-metadata==4.8.1
     - jedi==0.11.0
-    - Keras==2.0.8
+    - keras==2.2.4
+    - keras-applications==1.0.8
+    - keras-preprocessing==1.1.2
+    - markdown==3.3.4
+    - moke-config==0.2.1
+    - numpy==1.19.5
+    - opt-einsum==3.3.0
     - parso==0.1.0
+    - plaidml==0.7.0
+    - plaidml-keras==0.7.0
+    - protobuf==3.17.3
+    - pycparser==2.20
     - python-dotenv==0.7.1
-    - tensorflow_tensorboard==0.1.8
-    - wxPython==4.0.0b2
+    - pyyaml==5.4.1
+    - scipy==1.5.4
+    - six==1.16.0
+    - tensorboard==1.15.0
+    - tensorflow==1.15.0
+    - tensorflow-estimator==1.15.1
+    - termcolor==1.1.0
+    - typing-extensions==3.10.0.2
+    - werkzeug==2.0.1
+    - wrapt==1.12.1
+    - wxpython==4.0.0b2
+    - zipp==3.5.0
+prefix: /Users/jiangwei/opt/anaconda3/envs/reversi-a0
+

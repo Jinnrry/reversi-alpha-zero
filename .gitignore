@@ -14,7 +14,6 @@ __pycache__
 .ipynb_checkpoints/
 tmp/
 tmp.*
-.env
 *.bin
 /bin/
 /keys/*
